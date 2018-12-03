@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnOpenConfig"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Quiz Configuration"
+        app:layout_constraintBottom_toTopOf="@+id/divider1"/>
+
+    <View
+        android:id="@+id/divider1"
+        android:layout_width="5dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="#ccc"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <Button
+        android:id="@+id/btnOpenQuizzingActivity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Quizzing"
+        app:layout_constraintTop_toBottomOf="@+id/divider1"/>
+
+</android.support.constraint.ConstraintLayout>

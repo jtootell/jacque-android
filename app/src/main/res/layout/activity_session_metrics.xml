@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvDateLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="Study session date"
+            android:text="Date:"
+            android:visibility="visible"
+            tools:text="Date:" />
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvNamespaceLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="Question Namespace"
+            android:text="Namespace:"
+            android:visibility="visible"
+            tools:text="Namespace:" />
+
+        <TextView
+            android:id="@+id/tvNamespace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvQuestionsAskedLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="Questions Asked"
+            android:text="Questions Asked:"
+            android:visibility="visible"
+            tools:text="Questions Asked:" />
+
+        <TextView
+            android:id="@+id/tvQuestionsAsked"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvQuestionsCorrectLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="Questions Answered Correctly"
+            android:text="Questions Correct:"
+            android:visibility="visible"
+            tools:text="Questions Correct:" />
+
+        <TextView
+            android:id="@+id/tvQuestionsCorrect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvPercentageCorrectLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="Percent Correct"
+            android:text="Percent Correct:"
+            android:visibility="visible"
+            tools:text="Percent Correct:" />
+
+        <TextView
+            android:id="@+id/tvPercentCorrect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootQuizContainer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/questionArea"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/tvQuestion"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Question Goes Here" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/answerArea"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/questionArea">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/submitArea"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
